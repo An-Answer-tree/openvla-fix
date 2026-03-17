@@ -77,6 +77,7 @@ class GenerateConfig:
     #################################################################################################################
     run_id_note: Optional[str] = None                # Extra note to add in run ID for logging
     local_log_dir: str = "./experiments/logs"        # Local directory for eval logs
+    rollout_dir: Optional[str] = None                # Optional directory for rollout videos
 
     use_wandb: bool = False                          # Whether to also log results in Weights & Biases
     wandb_project: str = "YOUR_WANDB_PROJECT"        # Name of W&B project to log to (use default!)
@@ -242,7 +243,7 @@ def eval_libero(cfg: GenerateConfig) -> None:
 
             # Save a replay video of the episode
             save_rollout_video(
-                replay_images, total_episodes, success=done, task_description=task_description, log_file=log_file
+                replay_images, total_episodes, success=done, task_description=task_description, log_file=log_file, rollout_dir=cfg.rollout_dir
             )
 
             # Log current results
