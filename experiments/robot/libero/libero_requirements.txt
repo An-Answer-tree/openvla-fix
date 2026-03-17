@@ -1,5 +1,8 @@
 imageio[ffmpeg]
 robosuite==1.4.1
+# evdev 1.9.x expects newer Linux input-event headers than the
+# conda-forge/defaults 4.18 sysroot bundled in common OpenVLA envs.
+evdev<1.9
 bddl
 easydict
 cloudpickle

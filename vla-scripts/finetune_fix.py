@@ -78,8 +78,8 @@ class FinetuneConfig:
     vla_path: str = "openvla/openvla-7b"                            # Path to OpenVLA model (on HuggingFace Hub)
 
     # Directory Paths
-    data_root_dir: Path = Path("/mnt/HDD-6940GB/Dataset/modified_libero_rlds")        # Path to Open-X dataset directory
-    dataset_name: str = "libero_object_no_noops"                                # Name of fine-tuning dataset (e.g., `droid_wipe`)
+    data_root_dir: Path = Path("/opt/public/liutong/modified_libero_rlds")        # Path to Open-X dataset directory
+    dataset_name: str = "libero_spatial_no_noops"                                # Name of fine-tuning dataset (e.g., `droid_wipe`)
     run_root_dir: Path = Path("runs")                               # Path to directory to store logs & checkpoints
     adapter_tmp_dir: Path = Path("adapter-tmp")                     # Temporary directory for LoRA weights before fusing
 
@@ -91,7 +91,7 @@ class FinetuneConfig:
     grad_accumulation_steps: int = 4                                # Gradient accumulation steps
     image_aug: bool = True                                          # Whether to train with image augmentations
     shuffle_buffer_size: int = 100_000                              # Dataloader shuffle buffer size (can reduce if OOM)
-    save_latest_checkpoint_only: bool = True                        # Whether to save only one checkpoint per run and
+    save_latest_checkpoint_only: bool = False                        # Whether to save only one checkpoint per run and
                                                                     #   continually overwrite the latest checkpoint
                                                                     #   (If False, saves all checkpoints)
 
@@ -103,7 +103,7 @@ class FinetuneConfig:
                                                                     #   => CAUTION: Reduces memory but hurts performance
 
     # Tracking Parameters
-    wandb_project: str = "openvla_fixed"                                  # Name of W&B project to log to (use default!)
+    wandb_project: str = "openvla-origin-vs-fixed-spatial"                                  # Name of W&B project to log to (use default!)
     wandb_entity: str = "szliutong-wuhan-university"                          # Name of entity to log under
     run_id_note: Optional[str] = None                               # Extra note for logging, Weights & Biases
 
@@ -134,6 +134,8 @@ def finetune(cfg: FinetuneConfig) -> None:
         exp_id += f"--{cfg.run_id_note}"
     if cfg.image_aug:
         exp_id += "--image_aug"
+
+    exp_id += "-fixed"
 
     # Start =>> Build Directories
     run_dir, adapter_dir = cfg.run_root_dir / exp_id, cfg.adapter_tmp_dir / exp_id
