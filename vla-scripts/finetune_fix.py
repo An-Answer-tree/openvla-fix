@@ -255,7 +255,7 @@ def finetune(cfg: FinetuneConfig) -> None:
                 output: CausalLMOutputWithPast = vla(
                     input_ids=batch["input_ids"].to(device_id),
                     attention_mask=batch["attention_mask"].to(device_id),
-                    pixel_values=batch["pixel_values"].to(torch.bfloat16).to(device_id),
+                    pixel_values=torch.flip(batch["pixel_values"], dims=[-1]).to(torch.bfloat16).to(device_id),
                     labels=batch["labels"],
                 )
                 loss = output.loss
