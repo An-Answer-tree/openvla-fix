@@ -1934,3 +1934,243 @@ Saved rollout MP4 at path ./rollouts/origin_tuned/10/40k/2026_03_19-17_49_15--ep
 Success: True
 # episodes completed so far: 275
 # successes: 125 (45.5%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 26...
+Saved rollout MP4 at path ./rollouts/origin_tuned/10/40k/2026_03_19-17_49_15--episode=276--success=True--task=pick_up_the_book_and_place_it_in_the_back_compartm.mp4
+Success: True
+# episodes completed so far: 276
+# successes: 126 (45.7%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 27...
+Saved rollout MP4 at path ./rollouts/origin_tuned/10/40k/2026_03_19-17_49_15--episode=277--success=False--task=pick_up_the_book_and_place_it_in_the_back_compartm.mp4
+Success: False
+# episodes completed so far: 277
+# successes: 126 (45.5%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 28...
+Saved rollout MP4 at path ./rollouts/origin_tuned/10/40k/2026_03_19-17_49_15--episode=278--success=True--task=pick_up_the_book_and_place_it_in_the_back_compartm.mp4
+Success: True
+# episodes completed so far: 278
+# successes: 127 (45.7%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 29...
+Saved rollout MP4 at path ./rollouts/origin_tuned/10/40k/2026_03_19-17_49_15--episode=279--success=True--task=pick_up_the_book_and_place_it_in_the_back_compartm.mp4
+Success: True
+# episodes completed so far: 279
+# successes: 128 (45.9%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 30...
+Saved rollout MP4 at path ./rollouts/origin_tuned/10/40k/2026_03_19-17_49_15--episode=280--success=True--task=pick_up_the_book_and_place_it_in_the_back_compartm.mp4
+Success: True
+# episodes completed so far: 280
+# successes: 129 (46.1%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 31...
+Saved rollout MP4 at path ./rollouts/origin_tuned/10/40k/2026_03_19-17_49_15--episode=281--success=False--task=pick_up_the_book_and_place_it_in_the_back_compartm.mp4
+Success: False
+# episodes completed so far: 281
+# successes: 129 (45.9%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 32...
+Saved rollout MP4 at path ./rollouts/origin_tuned/10/40k/2026_03_19-17_49_15--episode=282--success=False--task=pick_up_the_book_and_place_it_in_the_back_compartm.mp4
+Success: False
+# episodes completed so far: 282
+# successes: 129 (45.7%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 33...
+Saved rollout MP4 at path ./rollouts/origin_tuned/10/40k/2026_03_19-17_49_15--episode=283--success=True--task=pick_up_the_book_and_place_it_in_the_back_compartm.mp4
+Success: True
+# episodes completed so far: 283
+# successes: 130 (45.9%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 34...
+Saved rollout MP4 at path ./rollouts/origin_tuned/10/40k/2026_03_19-17_49_15--episode=284--success=False--task=pick_up_the_book_and_place_it_in_the_back_compartm.mp4
+Success: False
+# episodes completed so far: 284
+# successes: 130 (45.8%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 35...
+Saved rollout MP4 at path ./rollouts/origin_tuned/10/40k/2026_03_19-17_49_15--episode=285--success=False--task=pick_up_the_book_and_place_it_in_the_back_compartm.mp4
+Success: False
+# episodes completed so far: 285
+# successes: 130 (45.6%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 36...
+Saved rollout MP4 at path ./rollouts/origin_tuned/10/40k/2026_03_19-17_49_15--episode=286--success=True--task=pick_up_the_book_and_place_it_in_the_back_compartm.mp4
+Success: True
+# episodes completed so far: 286
+# successes: 131 (45.8%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 37...
+Saved rollout MP4 at path ./rollouts/origin_tuned/10/40k/2026_03_19-17_49_15--episode=287--success=False--task=pick_up_the_book_and_place_it_in_the_back_compartm.mp4
+Success: False
+# episodes completed so far: 287
+# successes: 131 (45.6%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 38...
+Saved rollout MP4 at path ./rollouts/origin_tuned/10/40k/2026_03_19-17_49_15--episode=288--success=True--task=pick_up_the_book_and_place_it_in_the_back_compartm.mp4
+Success: True
+# episodes completed so far: 288
+# successes: 132 (45.8%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 39...
+Saved rollout MP4 at path ./rollouts/origin_tuned/10/40k/2026_03_19-17_49_15--episode=289--success=True--task=pick_up_the_book_and_place_it_in_the_back_compartm.mp4
+Success: True
+# episodes completed so far: 289
+# successes: 133 (46.0%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 40...
+Saved rollout MP4 at path ./rollouts/origin_tuned/10/40k/2026_03_19-17_49_15--episode=290--success=False--task=pick_up_the_book_and_place_it_in_the_back_compartm.mp4
+Success: False
+# episodes completed so far: 290
+# successes: 133 (45.9%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 41...
+Saved rollout MP4 at path ./rollouts/origin_tuned/10/40k/2026_03_19-17_49_15--episode=291--success=False--task=pick_up_the_book_and_place_it_in_the_back_compartm.mp4
+Success: False
+# episodes completed so far: 291
+# successes: 133 (45.7%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 42...
+Saved rollout MP4 at path ./rollouts/origin_tuned/10/40k/2026_03_19-17_49_15--episode=292--success=False--task=pick_up_the_book_and_place_it_in_the_back_compartm.mp4
+Success: False
+# episodes completed so far: 292
+# successes: 133 (45.5%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 43...
+Saved rollout MP4 at path ./rollouts/origin_tuned/10/40k/2026_03_19-17_49_15--episode=293--success=False--task=pick_up_the_book_and_place_it_in_the_back_compartm.mp4
+Success: False
+# episodes completed so far: 293
+# successes: 133 (45.4%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 44...
+Saved rollout MP4 at path ./rollouts/origin_tuned/10/40k/2026_03_19-17_49_15--episode=294--success=True--task=pick_up_the_book_and_place_it_in_the_back_compartm.mp4
+Success: True
+# episodes completed so far: 294
+# successes: 134 (45.6%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 45...
+Saved rollout MP4 at path ./rollouts/origin_tuned/10/40k/2026_03_19-17_49_15--episode=295--success=False--task=pick_up_the_book_and_place_it_in_the_back_compartm.mp4
+Success: False
+# episodes completed so far: 295
+# successes: 134 (45.4%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 46...
+Saved rollout MP4 at path ./rollouts/origin_tuned/10/40k/2026_03_19-17_49_15--episode=296--success=True--task=pick_up_the_book_and_place_it_in_the_back_compartm.mp4
+Success: True
+# episodes completed so far: 296
+# successes: 135 (45.6%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 47...
+Saved rollout MP4 at path ./rollouts/origin_tuned/10/40k/2026_03_19-17_49_15--episode=297--success=False--task=pick_up_the_book_and_place_it_in_the_back_compartm.mp4
+Success: False
+# episodes completed so far: 297
+# successes: 135 (45.5%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 48...
+Saved rollout MP4 at path ./rollouts/origin_tuned/10/40k/2026_03_19-17_49_15--episode=298--success=True--task=pick_up_the_book_and_place_it_in_the_back_compartm.mp4
+Success: True
+# episodes completed so far: 298
+# successes: 136 (45.6%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 49...
+Saved rollout MP4 at path ./rollouts/origin_tuned/10/40k/2026_03_19-17_49_15--episode=299--success=False--task=pick_up_the_book_and_place_it_in_the_back_compartm.mp4
+Success: False
+# episodes completed so far: 299
+# successes: 136 (45.5%)
+
+Task: pick up the book and place it in the back compartment of the caddy
+Starting episode 50...
+Saved rollout MP4 at path ./rollouts/origin_tuned/10/40k/2026_03_19-17_49_15--episode=300--success=True--task=pick_up_the_book_and_place_it_in_the_back_compartm.mp4
+Success: True
+# episodes completed so far: 300
+# successes: 137 (45.7%)
+Current task success rate: 0.6
+Current total success rate: 0.45666666666666667
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/origin_tuned/10/40k/2026_03_19-17_49_15--episode=301--success=False--task=put_the_white_mug_on_the_plate_and_put_the_chocola.mp4
+Success: False
+# episodes completed so far: 301
+# successes: 137 (45.5%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 2...
+Saved rollout MP4 at path ./rollouts/origin_tuned/10/40k/2026_03_19-17_49_15--episode=302--success=False--task=put_the_white_mug_on_the_plate_and_put_the_chocola.mp4
+Success: False
+# episodes completed so far: 302
+# successes: 137 (45.4%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 3...
+Saved rollout MP4 at path ./rollouts/origin_tuned/10/40k/2026_03_19-17_49_15--episode=303--success=True--task=put_the_white_mug_on_the_plate_and_put_the_chocola.mp4
+Success: True
+# episodes completed so far: 303
+# successes: 138 (45.5%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 4...
+Saved rollout MP4 at path ./rollouts/origin_tuned/10/40k/2026_03_19-17_49_15--episode=304--success=False--task=put_the_white_mug_on_the_plate_and_put_the_chocola.mp4
+Success: False
+# episodes completed so far: 304
+# successes: 138 (45.4%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 5...
+Saved rollout MP4 at path ./rollouts/origin_tuned/10/40k/2026_03_19-17_49_15--episode=305--success=True--task=put_the_white_mug_on_the_plate_and_put_the_chocola.mp4
+Success: True
+# episodes completed so far: 305
+# successes: 139 (45.6%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 6...
+Saved rollout MP4 at path ./rollouts/origin_tuned/10/40k/2026_03_19-17_49_15--episode=306--success=True--task=put_the_white_mug_on_the_plate_and_put_the_chocola.mp4
+Success: True
+# episodes completed so far: 306
+# successes: 140 (45.8%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 7...
+Saved rollout MP4 at path ./rollouts/origin_tuned/10/40k/2026_03_19-17_49_15--episode=307--success=False--task=put_the_white_mug_on_the_plate_and_put_the_chocola.mp4
+Success: False
+# episodes completed so far: 307
+# successes: 140 (45.6%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 8...
+Saved rollout MP4 at path ./rollouts/origin_tuned/10/40k/2026_03_19-17_49_15--episode=308--success=False--task=put_the_white_mug_on_the_plate_and_put_the_chocola.mp4
+Success: False
+# episodes completed so far: 308
+# successes: 140 (45.5%)
+
+Task: put the white mug on the plate and put the chocolate pudding to the right of the plate
+Starting episode 9...
+Saved rollout MP4 at path ./rollouts/origin_tuned/10/40k/2026_03_19-17_49_15--episode=309--success=False--task=put_the_white_mug_on_the_plate_and_put_the_chocola.mp4
+Success: False
+# episodes completed so far: 309
+# successes: 140 (45.3%)
