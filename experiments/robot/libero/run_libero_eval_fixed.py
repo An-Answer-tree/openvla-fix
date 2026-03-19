@@ -194,7 +194,7 @@ def eval_libero(cfg: GenerateConfig) -> None:
                         continue
 
                     # Get preprocessed image
-                    img = resize_image(obs["agentview_image"][::-1, :], resize_size)
+                    img = resize_image(obs["agentview_image"][::-1, :], (resize_size, resize_size) if isinstance(resize_size, int) else resize_size)
 
                     # Save preprocessed image for replay video
                     replay_images.append(img)
